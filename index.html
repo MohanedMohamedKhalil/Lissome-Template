@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Lissome Template</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main-nav">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand logo-text" href="#">Lissome</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="p-0">
+      <div
+        id="carouselExampleLight"
+        class="carousel carousel-light slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleLight"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleLight"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleLight"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="images/3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-white">
+                WE ARE CREATIVE AGENCY,<br />
+                CREATIVE PEOPLE
+              </h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                officiis ab ipsum, earum harum nesciunt rem alias consequuntur
+                distinctio tempora vero voluptates nulla enim atque id
+                repellendus eos. Quam, quis!
+              </p>
+              <a href="#contact" class="btn contact-btn">Contact</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-white">
+                WE ARE CREATIVE AGENCY,<br />
+                CREATIVE PEOPLE
+              </h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                officiis ab ipsum, earum harum nesciunt rem alias consequuntur
+                distinctio tempora vero voluptates nulla enim atque id
+                repellendus eos. Quam, quis!
+              </p>
+              <a href="#contact" class="btn contact-btn">Contact</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-white">
+                WE ARE CREATIVE AGENCY,<br />
+                CREATIVE PEOPLE
+              </h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                officiis ab ipsum, earum harum nesciunt rem alias consequuntur
+                distinctio tempora vero voluptates nulla enim atque id
+                repellendus eos. Quam, quis!
+              </p>
+              <a href="#contact" class="btn contact-btn">Contact</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleLight"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleLight"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="col-12 section-header text-center mb-5">
+          <h1>Our Services</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="icon">
+              <i class="fa-solid fa-mountain-sun fa-2x"></i>
+            </div>
+            <h4 class="font-h mt-4">Graphic Designing</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem incidunt sunt molestiae!
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="icon">
+              <i class="fa-solid fa-coffee fa-2x"></i>
+            </div>
+            <h4 class="font-h mt-4">Codding</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem incidunt sunt molestiae!
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="icon">
+              <i class="fa-solid fa-image fa-2x"></i>
+            </div>
+            <h4 class="font-h mt-4">Photography</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem incidunt sunt molestiae!
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="icon">
+              <i class="fa-solid fa-shield fa-2x"></i>
+            </div>
+            <h4 class="font-h mt-4">Hacking</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem incidunt sunt molestiae!
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="icon">
+              <i class="fa-solid fa-laptop fa-2x"></i>
+            </div>
+            <h4 class="font-h mt-4">Web Designing</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem incidunt sunt molestiae!
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="icon">
+              <i class="fa-solid fa-face-grin-hearts fa-2x"></i>
+            </div>
+            <h4 class="font-h mt-4">UI Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem incidunt sunt molestiae!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="row g-0 py-0">
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img src="images/shuffle-01.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3>Project title</h3>
+              <h6>Project subtite</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img src="images/shuffle-02.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3>Project title</h3>
+              <h6>Project subtite</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img src="images/shuffle-03.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3>Project title</h3>
+              <h6>Project subtite</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img src="images/shuffle-04.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3>Project title</h3>
+              <h6>Project subtite</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img src="images/shuffle-05.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3>Project title</h3>
+              <h6>Project subtite</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <img src="images/shuffle-06.jpg" alt="" />
+          <div class="portfolio-overlay">
+            <div>
+              <h3>Project title</h3>
+              <h6>Project subtite</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 section-header text-center mb-5">
+            <h1>Our Features</h1>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-sm-6 feature d-flex">
+            <div class="icon me-3">
+              <i class="fa fa-check fa-1x"></i>
+            </div>
+            <div>
+              <h5 class="font-h">Feature</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                incidunt inventore quibusdam accusamus esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 feature d-flex">
+            <div class="icon me-3">
+              <i class="fa fa-check fa-1x"></i>
+            </div>
+            <div>
+              <h5 class="font-h">Feature</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                incidunt inventore quibusdam accusamus esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 feature d-flex">
+            <div class="icon me-3">
+              <i class="fa fa-check fa-1x"></i>
+            </div>
+            <div>
+              <h5 class="font-h">Feature</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                incidunt inventore quibusdam accusamus esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 feature d-flex">
+            <div class="icon me-3">
+              <i class="fa fa-check fa-1x"></i>
+            </div>
+            <div>
+              <h5 class="font-h">Feature</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                incidunt inventore quibusdam accusamus esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 feature d-flex">
+            <div class="icon me-3">
+              <i class="fa fa-check fa-1x"></i>
+            </div>
+            <div>
+              <h5 class="font-h">Feature</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                incidunt inventore quibusdam accusamus esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 feature d-flex">
+            <div class="icon me-3">
+              <i class="fa fa-check fa-1x"></i>
+            </div>
+            <div>
+              <h5 class="font-h">Feature</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                incidunt inventore quibusdam accusamus esse.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="row g-0 py-0 text-center">
+      <div class="col-lg-3 col-sm-6 team-member">
+        <div class="team-member-img">
+          <img src="images/team-3-800x800.jpg" alt="" />
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="p-4">
+          <h5 class="font-h mt-3 mb-0 text-white">John Foe</h5>
+          <p class="text-white small">Web Designer</p>
+          <div class="hline"></div>
+          <p class="text-white">
+            Well skillful lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 team-member even">
+        <div class="team-member-img">
+          <img src="images/team-4-800x800.jpg" alt="" />
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="p-4">
+          <h5 class="font-h mt-3 mb-0 text-white">John Foe</h5>
+          <p class="text-white small">Web Designer</p>
+          <div class="hline"></div>
+          <p class="text-white">
+            Well skillful lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 team-member">
+        <div class="team-member-img">
+          <img src="images/team-5-800x800.jpg" alt="" />
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="p-4">
+          <h5 class="font-h mt-3 mb-0 text-white">John Foe</h5>
+          <p class="text-white small">Web Designer</p>
+          <div class="hline"></div>
+          <p class="text-white">
+            Well skillful lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 team-member even">
+        <div class="team-member-img">
+          <img src="images/team-6-800x800.jpg" alt="" />
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="p-4">
+          <h5 class="font-h mt-3 mb-0 text-white">John Foe</h5>
+          <p class="text-white small">Web Designer</p>
+          <div class="hline"></div>
+          <p class="text-white">
+            Well skillful lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ul
+              class="nav nav-pills justify-content-center mb-3"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  <img src="images/team-4-800x800.jpg" alt="" />
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  <img src="images/team-6-800x800.jpg" alt="" />
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  <img src="images/team-3-800x800.jpg" alt="" />
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div class="review">
+                  <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium ea explicabo nisi quia blanditiis assumenda quos
+                    veritatis sit deleniti porro nulla temporibus deserunt, iure
+                    in labore incidunt quis eos. Accusamus sed excepturi
+                    architecto.
+                  </p>
+                  <h5 class="font-h mb-0">John Doe</h5>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                <div class="review">
+                  <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium ea explicabo nisi quia blanditiis assumenda quos
+                    veritatis sit deleniti porro nulla temporibus deserunt, iure
+                    in labore incidunt quis eos. Accusamus sed excepturi
+                    architecto.
+                  </p>
+                  <h5 class="font-h mb-0">John Doe</h5>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                <div class="review">
+                  <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium ea explicabo nisi quia blanditiis assumenda quos
+                    veritatis sit deleniti porro nulla temporibus deserunt, iure
+                    in labore incidunt quis eos. Accusamus sed excepturi
+                    architecto.
+                  </p>
+                  <h5 class="font-h mb-0">John Doe</h5>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="bg-light">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-2 col-md-3 col-6">
+            <img src="images/logo1.svg" alt="" />
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <img src="images/logo2.svg" alt="" />
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <img src="images/logo3.svg" alt="" />
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <img src="images/logo4.svg" alt="" />
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <img src="images/logo5.svg" alt="" />
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <img src="images/logo6.svg" alt="" style="height: 45px" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row align-items-center gx-2">
+          <div class="col-lg-4">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <form class="needs-validation" novalidate>
+              <div class="form-group mb-3">
+                <p class="small m-0">Name</p>
+                <input
+                  type="text"
+                  id="username"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div class="invalid-feedback">Please Enter Valid Username</div>
+                <div class="valid-feedback">Looks Good ✅</div>
+              </div>
+              <div class="form-group mb-3">
+                <p class="small m-0">Email</p>
+                <input
+                  id="email"
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div class="invalid-feedback">Please Enter Valid Email</div>
+              </div>
+              <div class="mb-3">
+                <p class="small m-0">Name</p>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="4"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="phrase" class="py-5">
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h3 class="text-white">Let's build something great.</h3>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn btn-light">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-4">
+              <h4 class="logo-text">Lissome</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                accusantium praesentium voluptatum earum facilis, illo in nulla
+              </p>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="font-h">Navigation</h5>
+              <div class="footer-links">
+                <a href="#">Services</a>
+                <a href="#">Our Work</a>
+                <a href="#">Team</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="font-h">More</h5>
+              <div class="footer-links">
+                <a href="#">FAQ's</a>
+                <a href="#">Privacy & Policy</a>
+                <a href="#">Liscences</a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="font-h">Contact</h5>
+              <div class="footer-links">
+                <p>1649 Norman Street, Los Angeles, 9001</p>
+                <p>8(800)316-06-42</p>
+                <p>mohanedmohamed41@.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between gy-3">
+            <div class="col-md-6">
+              <p class="mb-0">© ITI Mansoura</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">Created By MOHANED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="validation.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
